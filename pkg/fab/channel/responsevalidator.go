@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package channel
 
 import (
+	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

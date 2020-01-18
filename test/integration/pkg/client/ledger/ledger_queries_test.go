@@ -11,15 +11,15 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/fiorri/fabric-sdk-go/pkg/client/ledger"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/status"
+	providersFab "github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/config"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/fabsdk"
+	"github.com/fiorri/fabric-sdk-go/test/integration"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/ledger"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	providersFab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

@@ -11,23 +11,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/fiorri/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/fiorri/fabric-sdk-go/test/integration"
+	"github.com/fiorri/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
+	"github.com/fiorri/fabric-sdk-go/pkg/client/channel"
+	"github.com/fiorri/fabric-sdk-go/pkg/client/resmgmt"
 
-	mspclient "github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
+	mspclient "github.com/fiorri/fabric-sdk-go/pkg/client/msp"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	packager "github.com/hyperledger/fabric-sdk-go/pkg/fab/ccpackager/gopackager"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
+	packager "github.com/fiorri/fabric-sdk-go/pkg/fab/ccpackager/gopackager"
+	"github.com/fiorri/fabric-sdk-go/pkg/fabsdk"
 )
 
 const (

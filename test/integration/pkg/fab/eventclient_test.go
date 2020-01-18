@@ -13,16 +13,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/test"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab/events/client"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab/events/deliverclient"
+	"github.com/fiorri/fabric-sdk-go/pkg/fabsdk"
+	"github.com/fiorri/fabric-sdk-go/pkg/util/test"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
+	"github.com/fiorri/fabric-sdk-go/test/integration"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 )
 

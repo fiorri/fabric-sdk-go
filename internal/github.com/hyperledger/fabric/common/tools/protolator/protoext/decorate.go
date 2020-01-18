@@ -11,17 +11,17 @@ Please review third_party pinning scripts and patches for more details.
 package protoext
 
 import (
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/commonext"
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/ledger/rwsetext"
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/mspext"
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/ordererext"
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/peerext"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/ledger/rwset"
 	"github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/commonext"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/ledger/rwsetext"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/mspext"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/ordererext"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/peerext"
 )
 
 // Docorate will add additional capabilities to some protobuf messages that

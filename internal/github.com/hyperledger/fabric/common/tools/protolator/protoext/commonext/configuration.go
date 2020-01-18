@@ -13,11 +13,11 @@ package commonext
 import (
 	"fmt"
 
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/ordererext"
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/peerext"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/ordererext"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator/protoext/peerext"
 
 	"github.com/pkg/errors"
 )

@@ -23,14 +23,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/config"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/mocks"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab/comm"
+	"github.com/fiorri/fabric-sdk-go/pkg/util/pathvar"
 )
 
 const (

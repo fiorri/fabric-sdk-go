@@ -21,12 +21,12 @@ import (
 	"google.golang.org/grpc/keepalive"
 	grpcstatus "google.golang.org/grpc/status"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockfab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/test/mockfab"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab/mocks"
 )
 
 const (

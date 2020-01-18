@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/test/mockfab"
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockfab"
 )
 
 const (

@@ -13,14 +13,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	ledgerutil "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/options"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/golang/protobuf/proto"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	ledgerutil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

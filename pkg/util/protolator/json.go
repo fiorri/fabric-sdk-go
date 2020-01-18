@@ -7,8 +7,8 @@ package protolator
 import (
 	"io"
 
+	plator "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator"
 	"github.com/golang/protobuf/proto"
-	plator "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator"
 )
 
 // DeepMarshalJSON marshals msg to w as JSON, but instead of marshaling bytes fields which contain nested

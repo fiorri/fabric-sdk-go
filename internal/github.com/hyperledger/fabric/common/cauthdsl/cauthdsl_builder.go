@@ -13,10 +13,10 @@ package cauthdsl
 import (
 	"sort"
 
+	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
 	"github.com/golang/protobuf/proto"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
 )
 
 // AcceptAllPolicy always evaluates to true

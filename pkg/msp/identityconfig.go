@@ -16,13 +16,13 @@ import (
 
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	logApi "github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/fiorri/fabric-sdk-go/pkg/core/config/lookup"
+	logApi "github.com/fiorri/fabric-sdk-go/pkg/core/logging/api"
+	fabImpl "github.com/fiorri/fabric-sdk-go/pkg/fab"
+	"github.com/fiorri/fabric-sdk-go/pkg/util/pathvar"
 )
 
 var defaultCAServerSchema = "https"

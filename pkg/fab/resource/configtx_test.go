@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/fiorri/fabric-sdk-go/test/metadata"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource/genesisconfig"
+	"github.com/fiorri/fabric-sdk-go/pkg/fab/resource/genesisconfig"
 	"github.com/stretchr/testify/require"
 )
 
