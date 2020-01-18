@@ -24,7 +24,6 @@ import (
 	"crypto/elliptic"
 	"crypto/sha256"
 	"crypto/x509"
-	"errors"
 	"fmt"
 
 	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
@@ -37,7 +36,8 @@ type ecdsaPrivateKey struct {
 // Bytes converts this key to its byte representation,
 // if this operation is allowed.
 func (k *ecdsaPrivateKey) Bytes() ([]byte, error) {
-	return nil, errors.New("Not supported.")
+	x509Encoded, _ := x509.MarshalECPrivateKey(k.privKey)
+	return x509Encoded, nil
 }
 
 // SKI returns the subject key identifier of this key.
