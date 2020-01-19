@@ -7,12 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package sw
 
 import (
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	ibccsp "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	bccspSw "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/sw"
 	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/fiorri/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"
+	"github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
 )
 
@@ -30,7 +31,7 @@ func GetSuiteByConfig(config core.CryptoSuiteConfig) (core.CryptoSuite, error) {
 	if err != nil {
 		return nil, err
 	}
-	return wrapper.NewCryptoSuite(bccsp), nil
+	return wrapper.NewCryptoSuite(bccsp.(ibccsp.BCCSP)), nil
 }
 
 //GetSuiteWithDefaultEphemeral returns cryptosuite adaptor for bccsp with default ephemeral options (intended to aid testing)
@@ -41,12 +42,13 @@ func GetSuiteWithDefaultEphemeral() (core.CryptoSuite, error) {
 	if err != nil {
 		return nil, err
 	}
-	return wrapper.NewCryptoSuite(bccsp), nil
+	return wrapper.NewCryptoSuite(bccsp.(ibccsp.BCCSP)), nil
 }
 
-func getBCCSPFromOpts(config *bccspSw.SwOpts) (bccsp.BCCSP, error) {
+func getBCCSPFromOpts(config *bccspSw.SwOpts) (ibccsp.BCCSP, error) {
 	f := &bccspSw.SWFactory{}
 
+	var csp ibccsp.BCCSP
 	csp, err := f.Get(config)
 	if err != nil {
 		return nil, errors.Wrapf(err, "Could not initialize BCCSP %s", f.Name())
@@ -57,7 +59,7 @@ func getBCCSPFromOpts(config *bccspSw.SwOpts) (bccsp.BCCSP, error) {
 // GetSuite returns a new instance of the software-based BCCSP
 // set at the passed security level, hash family and KeyStore.
 func GetSuite(securityLevel int, hashFamily string, keyStore bccsp.KeyStore) (core.CryptoSuite, error) {
-	bccsp, err := sw.NewWithParams(securityLevel, hashFamily, keyStore)
+	bccsp, err := sw.NewWithParams(securityLevel, hashFamily, keyStore.(ibccsp.KeyStore))
 	if err != nil {
 		return nil, err
 	}
