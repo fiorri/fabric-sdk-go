@@ -18,7 +18,7 @@ import (
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/pkg/errors"
 
-	factory "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	factory "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

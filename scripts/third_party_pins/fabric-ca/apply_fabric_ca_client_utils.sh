@@ -6,7 +6,7 @@
 #
 
 # This script pins the BCCSP package family from Hyperledger Fabric into the SDK
-# These files are checked into internal paths.
+# These files are checked into internal_ paths.
 # Note: This script must be adjusted as upstream makes adjustments
 
 set -e
@@ -42,7 +42,7 @@ declare -a FILES=(
     "util/csp.go"
 )
 
-# Copy patched project into internal paths and insert modification notice
+# Copy patched project into internal_ paths and insert modification notice
 echo "Copying patched upstream project into working directory and inserting modification notice ..."
 for i in "${FILES[@]}"
 do

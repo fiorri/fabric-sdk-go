@@ -6,7 +6,7 @@
 #
 
 # This script fetches code originating from other upstream projects
-# These files are checked into internal paths.
+# These files are checked into internal_ paths.
 
 set -e
 

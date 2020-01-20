@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/cauthdsl"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	mocks "github.com/fiorri/fabric-sdk-go/pkg/fab/mocks"
 	common "github.com/hyperledger/fabric-protos-go/common"

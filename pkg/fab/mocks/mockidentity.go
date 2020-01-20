@@ -11,7 +11,7 @@ import (
 
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/msp"
 	msp_protos "github.com/hyperledger/fabric-protos-go/msp"
 )
 

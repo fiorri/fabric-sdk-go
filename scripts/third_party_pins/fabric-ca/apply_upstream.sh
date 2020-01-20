@@ -6,7 +6,7 @@
 #
 
 # This script fetches code used in the SDK originating from other Hyperledger Fabric projects
-# These files are checked into internal paths.
+# These files are checked into internal_ paths.
 # Note: This script must be adjusted as upstream makes adjustments
 
 set -e
@@ -18,7 +18,7 @@ UPSTREAM_PROJECT="github.com/hyperledger/fabric-ca"
 UPSTREAM_BRANCH="${UPSTREAM_BRANCH:-release}"
 SCRIPTS_PATH="scripts/third_party_pins/fabric-ca"
 
-THIRDPARTY_INTERNAL_FABRIC_CA_PATH='internal/github.com/hyperledger/fabric-ca'
+THIRDPARTY_INTERNAL_FABRIC_CA_PATH='internal_/github.com/hyperledger/fabric-ca'
 
 ####
 # Clone and patch packages into repo

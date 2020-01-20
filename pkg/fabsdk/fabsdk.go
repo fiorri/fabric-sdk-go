@@ -11,7 +11,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/operations"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/core/operations"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	coptions "github.com/fiorri/fabric-sdk-go/pkg/common/options"
 	contextApi "github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"

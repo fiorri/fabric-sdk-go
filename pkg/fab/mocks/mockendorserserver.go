@@ -11,7 +11,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
 	"github.com/fiorri/fabric-sdk-go/pkg/util/test"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/ledger/rwset/kvrwset"

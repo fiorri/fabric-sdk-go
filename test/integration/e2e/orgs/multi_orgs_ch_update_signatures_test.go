@@ -28,7 +28,7 @@ import (
 
 	"github.com/fiorri/fabric-sdk-go/pkg/fab/resource"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/channel"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
 	mspclient "github.com/fiorri/fabric-sdk-go/pkg/client/msp"

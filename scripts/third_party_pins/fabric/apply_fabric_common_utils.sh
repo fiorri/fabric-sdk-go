@@ -25,7 +25,7 @@ declare -a FILES=(
         "core/ledger/util/txvalidationflags.go"
 )
 
-# Copy patched project into internal paths and insert modification notice
+# Copy patched project into internal_ paths and insert modification notice
 echo "Copying patched upstream project into working directory and inserting modification notice ..."
 for i in "${FILES[@]}"
 do

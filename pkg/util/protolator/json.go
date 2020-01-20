@@ -7,7 +7,7 @@ package protolator
 import (
 	"io"
 
-	plator "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator"
+	plator "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/tools/protolator"
 	"github.com/golang/protobuf/proto"
 )
 

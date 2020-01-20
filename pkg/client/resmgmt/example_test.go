@@ -14,7 +14,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/cauthdsl"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	sdkCtx "github.com/fiorri/fabric-sdk-go/pkg/context"

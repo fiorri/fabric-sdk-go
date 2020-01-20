@@ -12,7 +12,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 )

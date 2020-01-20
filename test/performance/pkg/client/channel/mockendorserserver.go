@@ -16,7 +16,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	discmocks "github.com/fiorri/fabric-sdk-go/pkg/fab/discovery/mocks"
 	eventmocks "github.com/fiorri/fabric-sdk-go/pkg/fab/events/mocks"

@@ -6,7 +6,7 @@
 #
 
 # This script fetches code used in the SDK originating from other Hyperledger Fabric projects
-# These files are checked into internal paths.
+# These files are checked into internal_ paths.
 # Note: This script must be adjusted as upstream makes adjustments
 
 set -e
@@ -19,7 +19,7 @@ UPSTREAM_BRANCH="${UPSTREAM_BRANCH:-release}"
 SCRIPTS_PATH="scripts/third_party_pins/fabric"
 
 THIRDPARTY_FABRIC_PATH='third_party/github.com/hyperledger/fabric'
-THIRDPARTY_INTERNAL_FABRIC_PATH='internal/github.com/hyperledger/fabric'
+THIRDPARTY_INTERNAL_FABRIC_PATH='internal_/github.com/hyperledger/fabric'
 
 ####
 # Clone and patch packages into repo
@@ -44,13 +44,13 @@ echo 'Removing current upstream project from working directory ...'
 rm -Rf "${THIRDPARTY_FABRIC_PATH}" "${THIRDPARTY_INTERNAL_FABRIC_PATH}"
 mkdir -p "${THIRDPARTY_FABRIC_PATH}" "${THIRDPARTY_INTERNAL_FABRIC_PATH}"
 
-# Create internal utility structure
-mkdir -p ${TMP_PROJECT_PATH}/internal/protoutil
-cp -R ${TMP_PROJECT_PATH}/protoutil ${TMP_PROJECT_PATH}/internal/
+# Create internal_ utility structure
+mkdir -p ${TMP_PROJECT_PATH}/internal_/protoutil
+cp -R ${TMP_PROJECT_PATH}/protoutil ${TMP_PROJECT_PATH}/internal_/
 
-# copy required files that are under internal into non-internal structure.
+# copy required files that are under internal_ into non-internal_ structure.
 mkdir -p ${TMP_PROJECT_PATH}/sdkinternal
-cp -R ${TMP_PROJECT_PATH}/internal/* ${TMP_PROJECT_PATH}/sdkinternal/
+cp -R ${TMP_PROJECT_PATH}/internal_/* ${TMP_PROJECT_PATH}/sdkinternal/
 
 # fabric client utils
 echo "Pinning and patching fabric client utils..."

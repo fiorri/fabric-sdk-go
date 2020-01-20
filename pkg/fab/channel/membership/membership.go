@@ -12,7 +12,7 @@ import (
 
 	"strings"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/msp"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/common/verifier"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"

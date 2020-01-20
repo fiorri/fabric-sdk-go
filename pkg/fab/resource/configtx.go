@@ -13,14 +13,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/tools/protolator"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/configtxgen/encoder"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/configtxlator/update"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/channelconfig"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/tools/protolator"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/sdkinternal/configtxgen/encoder"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/sdkinternal/configtxlator/update"
 	"github.com/pkg/errors"
 
-	localconfig "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/configtxgen/genesisconfig"
+	localconfig "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/sdkinternal/configtxgen/genesisconfig"
 
 	"github.com/fiorri/fabric-sdk-go/pkg/fab/resource/genesisconfig"
 	"github.com/hyperledger/fabric-protos-go/common"

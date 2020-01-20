@@ -27,7 +27,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/configtxlator/update"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/sdkinternal/configtxlator/update"
 
 	"github.com/fiorri/fabric-sdk-go/pkg/client/common/verifier"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/retry"

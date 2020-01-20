@@ -15,7 +15,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/core/common/ccprovider"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/channel"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"

@@ -11,10 +11,10 @@ import (
 
 	"encoding/json"
 
-	caapi "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/api"
-	calib "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	caapi "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/api"
+	calib "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/lib"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/fiorri/fabric-sdk-go/pkg/core/config/endpoint"

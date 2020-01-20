@@ -14,7 +14,7 @@ import (
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	ctxprovider "github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"

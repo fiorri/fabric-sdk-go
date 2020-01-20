@@ -11,7 +11,7 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"

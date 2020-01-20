@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	discclient "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
+	discclient "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/discovery/client"
 	"github.com/fiorri/fabric-sdk-go/pkg/context"
 	"github.com/fiorri/fabric-sdk-go/pkg/fabsdk"
 	fabdiscovery "github.com/hyperledger/fabric-protos-go/discovery"

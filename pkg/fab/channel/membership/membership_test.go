@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/fiorri/fabric-sdk-go/test/metadata"
 	"github.com/pkg/errors"
 

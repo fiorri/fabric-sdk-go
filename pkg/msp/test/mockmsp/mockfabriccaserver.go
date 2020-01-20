@@ -12,9 +12,9 @@ import (
 	"time"
 
 	cfsslapi "github.com/cloudflare/cfssl/api"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/api"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/api"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/lib"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/util"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 )

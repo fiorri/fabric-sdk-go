@@ -11,8 +11,8 @@ import (
 	"math/rand"
 	"regexp"
 
-	channelConfig "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/channelconfig"
-	imsp "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
+	channelConfig "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/channelconfig"
+	imsp "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/msp"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"

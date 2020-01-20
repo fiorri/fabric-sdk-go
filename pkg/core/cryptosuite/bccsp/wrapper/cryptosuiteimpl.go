@@ -9,7 +9,7 @@ package wrapper
 import (
 	"hash"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 )
 

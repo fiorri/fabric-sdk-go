@@ -11,7 +11,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/test/mockcore"
 	"github.com/golang/mock/gomock"

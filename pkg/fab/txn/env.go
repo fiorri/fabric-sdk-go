@@ -15,7 +15,7 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/pkg/errors"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/crypto"
 	contextApi "github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/fiorri/fabric-sdk-go/pkg/core/cryptosuite"

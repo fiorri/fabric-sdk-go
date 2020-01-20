@@ -10,8 +10,8 @@ import (
 	reqcontext "context"
 	"sync"
 
-	discclient "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
-	gprotoext "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/gossip/protoext"
+	discclient "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/discovery/client"
+	gprotoext "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/gossip/protoext"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	fabdiscovery "github.com/fiorri/fabric-sdk-go/pkg/fab/discovery"
 	discmocks "github.com/fiorri/fabric-sdk-go/pkg/fab/discovery/mocks"

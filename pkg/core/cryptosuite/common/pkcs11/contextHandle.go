@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cachebridge"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/sdkpatch/cachebridge"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/util/concurrent/lazycache"
 	"github.com/fiorri/fabric-sdk-go/pkg/util/concurrent/lazyref"

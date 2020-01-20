@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	fabricCaUtil "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	fabricCaUtil "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/util"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	providersFab "github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"

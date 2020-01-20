@@ -11,8 +11,8 @@ import (
 
 	"fmt"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	bccspSw "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/sw"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp"
+	bccspSw "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/factory/sw"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/channel"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"

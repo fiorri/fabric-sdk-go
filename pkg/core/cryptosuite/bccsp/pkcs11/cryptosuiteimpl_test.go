@@ -14,9 +14,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	pkcsFactory "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/pkcs11"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/pkcs11"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp"
+	pkcsFactory "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/factory/pkcs11"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/pkcs11"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/test/mockcore"
 )

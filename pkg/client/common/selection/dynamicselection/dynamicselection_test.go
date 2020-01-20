@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/core/common/ccprovider"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/common/selection/dynamicselection/pgresolver"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/common/selection/options"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"

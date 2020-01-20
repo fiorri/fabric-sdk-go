@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/pkcs11"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/pkcs11"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/test/mockcore"
 	"github.com/fiorri/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"

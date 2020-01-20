@@ -10,8 +10,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
-	fcutils "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/crypto"
+	fcutils "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/util"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/hyperledger/fabric-protos-go/common"
 )

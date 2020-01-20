@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/cloudflare/cfssl/log"
-	fabricCaUtil "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	fabricCaUtil "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/util"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"

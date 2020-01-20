@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package headertypefilter
 
 import (
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"
 	cb "github.com/hyperledger/fabric-protos-go/common"

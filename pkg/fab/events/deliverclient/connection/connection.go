@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/common/crypto"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/logging"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/options"
 	fabcontext "github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"

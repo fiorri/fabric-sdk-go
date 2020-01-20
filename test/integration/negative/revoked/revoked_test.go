@@ -39,7 +39,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/channel"
 	msp2 "github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/fiorri/fabric-sdk-go/pkg/core/config"

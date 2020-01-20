@@ -20,7 +20,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 	grpcstatus "google.golang.org/grpc/status"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
 	"github.com/fiorri/fabric-sdk-go/pkg/client/common/verifier"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"

@@ -13,7 +13,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/protoutil"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/errors/multi"
 	contextApi "github.com/fiorri/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/fab"

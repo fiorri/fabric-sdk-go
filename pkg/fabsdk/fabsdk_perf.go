@@ -9,8 +9,8 @@ SPDX-License-Identifier: Apache-2.0
 package fabsdk
 
 import (
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/operations"
-	flogging "github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/core/operations"
+	flogging "github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/fiorri/fabric-sdk-go/pkg/fabsdk/metrics"
 )
 

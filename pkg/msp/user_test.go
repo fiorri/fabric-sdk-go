@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/fiorri/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/fiorri/fabric-sdk-go/internal_/github.com/hyperledger/fabric-ca/util"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/fiorri/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/fiorri/fabric-sdk-go/pkg/core/config"

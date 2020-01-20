@@ -36,7 +36,7 @@ const (
 )
 
 func TestTxProposalResponseFilter(t *testing.T) {
-	testErrorResponse := "internal error"
+	testErrorResponse := "internal_ error"
 	// failed if status not 200
 	testPeer1 := fcmocks.NewMockPeer("Peer1", "http://peer1.com")
 	testPeer2 := fcmocks.NewMockPeer("Peer2", "http://peer2.com")
